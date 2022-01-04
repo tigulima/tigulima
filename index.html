@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thiago Imai</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    </head>
+    <body>
+        <div class="sidebar">
+            <button class="sidebtn" onclick="showMe()">
+                <h3>Me</h3>
+            </button>
+            <button class="sidebtn" onclick="showDev()">
+                <h3>Dev</h3>
+            </button>
+            <button class="sidebtn" onclick="showVid()">
+                <h3>Vid</h3>
+            </button>
+            <div class="spacer"></div>
+            <button class="sidebtn link" onclick="">
+                <h3>Link</h3>
+            </button>
+            <button class="sidebtn link" onclick="">
+                <h3>Link</h3>
+            </button>
+        </div>
+        
+        <div id="meDiv" class="blog" style="display: block;">
+            <zero-md src="README.md"></zero-md>
+        </div>
+        <div id="devDiv" class="blog" style="display: none;">
+            <h1>Dev stuff will be here!</h1>
+        </div>
+        <div id="vidDiv" class="blog" style="display: none;">
+            <h1>Welcome to my creative space!</h1>
+        </div>
+    </body>
+</html>
+    
+<script type="text/javascript">
+    function showMe() {
+        document.getElementById('meDiv').style.display = "block";
+        document.getElementById('devDiv').style.display = "none";
+        document.getElementById('vidDiv').style.display = "none";
+    }
+    
+    function showDev() {
+        document.getElementById('meDiv').style.display = "none";
+        document.getElementById('devDiv').style.display = "block";
+        document.getElementById('vidDiv').style.display = "none";
+    }
+    
+    function showVid() {
+        document.getElementById('meDiv').style.display = "none";
+        document.getElementById('devDiv').style.display = "none";
+        document.getElementById('vidDiv').style.display = "block";
+    }
+</script>

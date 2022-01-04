@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #222;
+}
+
+h1 {
+    color: lightgray;
+    align-items: center;
+}
+
+h2 {
+    color: lightgray;
+}
+
+h3 {
+    color: lightgray;
+}
+
+.text {
+    color: lightgray;
+}
+
+.textmuted {
+    color: lightgray;
+}
+
+.link {
+    color: lightgray;
+}
+
+.sidebar {
+ background-color: #333;
+ height: 100vh;
+ width: 80px;
+ float: left;
+}
+
+.sidebtn {
+    height: 80px;
+    width: 80px;
+    background-color: #333;
+    border: none;
+    transition-duration: 0.2s;
+}
+.sidebtn:hover {
+    background-color: #222;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.blog {
+    padding: 100px;
+}
+
+.spacer {
+    height: 50vh;
+    background-color: transparent;
+}

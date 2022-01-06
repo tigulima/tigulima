@@ -87,6 +87,10 @@ object {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.sidebtn:hover .icon {
+    fill:lightskyblue;
+}
+
 .cover {
     border-radius: 100%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -147,9 +151,11 @@ object {
     margin-top: 40px;
 }
 
-.btnimg {
-    height: 70px;
-    width: 70px;
+.icon {
+    fill: lightgray;
+    transition-duration: 0.4s;
+    height: 25px;
+    width: 25px;
 }
 
 .footer {
@@ -174,8 +180,13 @@ object {
         top: 0%;
     }
 
+    .sidebtn {
+        width: 150px;
+        height: 150px;
+    }
+
     .mobilespacer {
-        padding: 25px;
+        padding: 75px;
     }
 
     .row {
@@ -188,4 +199,10 @@ object {
         margin: auto;
         margin-bottom: 50px;
     }
+
+    .icon {
+        height: 4rem;
+        width: 4rem;
+    }
+    
 }

@@ -203,6 +203,7 @@ object {
     .row {
         display: block;
         margin-top: 50px;
+        max-width: none;
     }
 
     .card {

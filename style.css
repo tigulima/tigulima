@@ -7,21 +7,25 @@ body {
 }
 
 h1 {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     color: lightgray;
 }
 
 h2 {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     color: lightgray;
 }
 
 h3 {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     color: lightgrey;
 }
 
 text {
+    font-family: 'Nunito', sans-serif;
     overflow-wrap: break-word;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
@@ -123,15 +127,18 @@ object {
 }
 
 .textmuted {
+    font-family: 'Nunito', sans-serif;
     color: gray;
 }
 
 .titlebig {
+    font-family: 'Nunito', sans-serif;
     color: lightskyblue;
     font-size: 2rem;
 }
 
 .titlesmall {
+    font-family: 'Nunito', sans-serif;
     color: lightskyblue;
     font-size: 1.6rem;
 }
@@ -170,6 +177,7 @@ object {
 }
 
 .footertext {
+    font-family: 'Nunito', sans-serif;
     font-size: 1rem !important;
     margin: 10px;
     width: 100%;

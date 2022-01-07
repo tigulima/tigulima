@@ -1,3 +1,8 @@
+::selection {
+    background: lightskyblue;
+    color: #111;
+}
+
 body {
     background-color: #222;
     position: relative;
@@ -65,9 +70,14 @@ object {
 }
 
 .card:hover {
-    color: lightskyblue;
+    box-shadow: 0 12px 16px 0 rgba(65, 151, 177, 0.034), 0 17px 50px 0 rgba(0, 217, 255, 0.041);
     border: 2px solid lightskyblue;
     cursor: pointer;
+    color: lightskyblue;
+}
+
+.card:hover .cardimg {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .cardimg {
@@ -75,6 +85,7 @@ object {
     border-radius: 15px;
     margin-top: -23px !important;
     width: 250px;
+    transition-duration: 0.4s;
 }
 
 .cardtext {
@@ -100,6 +111,11 @@ object {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     max-width: 300px;
     width: 50%;
+    transition-duration: 0.4s;
+}
+
+.cover:hover {
+    box-shadow: none;
 }
 
 .icon {

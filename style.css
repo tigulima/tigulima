@@ -37,12 +37,12 @@ text {
 
 .titlebig {
     color: lightskyblue;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .titlesmall {
     color: lightskyblue;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
 .link {
@@ -170,13 +170,17 @@ object {
 }
 
 .footertext {
-    font-size: 16px !important;
+    font-size: 1rem !important;
     margin: 10px;
     width: 100%;
 
 }
 
 @media screen and (max-width:1200px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
     .sidebar {
         background-color: #333;
         justify-content: center;
@@ -200,11 +204,26 @@ object {
         display: block;
     }
 
-    .responsive {
+    .card {
         height: 400px;
-        width: 300px;
+        width: 100%;
         margin: auto;
         margin-bottom: 50px;
+        display: flex;
+    }
+
+    .cardimg {
+        margin-left: 20px;
+        margin-top: 20px !important;
+        margin-right: 0px;
+        height: 350px;
+        width: 350px;
+    }
+    
+    .cardtext {
+        text-decoration: none;
+        color: inherit;
+        margin: auto;
     }
 
     .icon {

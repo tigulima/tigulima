@@ -123,17 +123,38 @@ object {
     margin-bottom: 100px;
 }
 
-.galleryimg {
+.galleryimgright {
     transition-duration: 0.4s;
     border-radius: 25px;
     width: 60vw;
-
     margin: auto;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px;
 }
 
-.galleryimg:hover {
+.galleryimgright:hover {
     box-shadow: none;
+}
+
+.galleryimgleft {
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    width: 60vw;
+    margin: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px;
+}
+
+.galleryimgleft:hover {
+    box-shadow: none;
+}
+
+.gallerytext {
+    width: 30vw;
+    margin:50px;
+    margin-top: 200px;
 }
 
 .icon {
@@ -272,4 +293,20 @@ object {
         width: 4rem;
     }
     
+    .gallery {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    .galleryimgright {
+        width: 60vw;
+    }
+    
+    .galleryimgleft {
+        width: 60vw;
+    }
+
+    .gallerytext {
+        margin-top: 25px;
+    }
 }
